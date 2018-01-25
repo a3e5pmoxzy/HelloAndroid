@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/photoimgview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="center"
+        android:src="@drawable/imgviewudacity" />
+
+    <TextView
+        android:id="@+id/comptxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/photoimgview"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Udacity"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/addresstxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comptxtview"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-light"
+        android:text="2465 Latham St"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/statetxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addresstxtview"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Mountain View, CA 94043"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/phhonetxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statetxtview"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-light"
+        android:text="650-555-5555"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="25sp" />
+
+</LinearLayout>
